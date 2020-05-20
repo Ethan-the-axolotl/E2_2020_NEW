@@ -2,3 +2,10 @@
 #@inputs EGP:wirelink DialingAddress:string Active Inbound Open GlyphColor ShowAuthor #maybe?
 #@outputs Orange Yes #maybe?
 @persist
+
+#EGP do NOT change anything yet
+
+EGP:egpBox()
+EGP:egpBoxOutline()
+EGP:egpColor()
+EGP:egpColor()
