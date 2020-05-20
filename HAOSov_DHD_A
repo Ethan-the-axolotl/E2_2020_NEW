@@ -1,0 +1,4 @@
+@name HAOSov_DHD_A
+#@inputs EGP:wirelink DialingAddress:string Active Inbound Open GlyphColor ShowAuthor #maybe?
+#@outputs Orange Yes #maybe?
+@persist
