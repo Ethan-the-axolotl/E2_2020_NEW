@@ -1,0 +1,8 @@
+#need istall content HL2
+#by HAOSov
+
+@name musicchips
+
+
+    soundPlay(100, 100, "ambient/music/looping_radio_mix.wav")
+#soundPlay(0, 0, "ambient/music/")
