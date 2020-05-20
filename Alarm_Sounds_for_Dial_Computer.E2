@@ -3,6 +3,7 @@
 @outputs 
 @persist E:entity 
 E=entity()
+#interval(1000)
 
 #### Incoming Wormhole Alarm ####
 if(SndIncoming){E:soundPlay(1,20,"SGC_offworld-alarm.wav")}
