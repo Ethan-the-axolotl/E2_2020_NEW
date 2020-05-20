@@ -1,0 +1,12 @@
+@name codka
+@inputs
+@outputs
+@persist IDC:table GT:gtable
+@trigger
+#if (dupe...()){reset() gTbable("codkasay:"+entity():id()):clear()}
+interval(1000)
+
+
+IDC[HAOSov Always Win, array]=array(2,@codka")
+
+GT+ gTable("codkas
