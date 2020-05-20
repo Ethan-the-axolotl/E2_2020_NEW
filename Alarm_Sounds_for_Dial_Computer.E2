@@ -1,0 +1,15 @@
+@name Alarm
+@inputs SndIncoming SndOutbound
+@outputs 
+@persist E:entity 
+E=entity()
+
+#### Incoming Wormhole Alarm ####
+if(SndIncoming){E:soundPlay(1,20,"SGC_offworld-alarm.wav")}
+else{
+
+#### Outbound Wormhole Alarm ####
+if(SndOutbound){E:soundPlay(1,20,"SGC_alarm.wav")}
+
+
+else{reset()}}
